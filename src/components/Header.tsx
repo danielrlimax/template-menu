@@ -44,7 +44,7 @@ export default function Header({ onCartClick, config }: HeaderProps) {
                   <img 
                     src={config.logoImage} 
                     alt={config.name} 
-                    className="w-full h-full object-contain p-1"
+                    className="w-full h-full object-contain "
                   />
                 ) : (
                   <span className="text-white font-extrabold text-lg sm:text-xl">
